@@ -17,6 +17,8 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+node_modules/
+*.jar
 
 target
 test

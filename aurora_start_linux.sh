@@ -63,7 +63,7 @@ else
 fi
 
 # 用于最后提示的公网 IP（在 EC2 上优先用 metadata）
-public_ip="$(curl -s http://169.254.169.254/latest/meta-data/public-ipv4 || curl -s ifconfig.me || echo "localhost")"
+public_ip="3.144.87.113"
 
 # -------------------------------
 # 3. 启动 MySQL
